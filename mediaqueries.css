@@ -101,3 +101,19 @@
     text-align: justify;
   }
 }
+
+/* WORK EXPERIENCE TIMELINE - MOBILE */
+  .timeline-item {
+    padding-left: 2.25rem;
+  }
+  .timeline-content h3 {
+    font-size: 1.1rem;
+  }
+  .timeline-meta {
+    flex-direction: column;
+    gap: 0.15rem;
+  }
+  .timeline-date {
+    font-size: 0.8rem;
+  }
+
