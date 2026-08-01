@@ -6,7 +6,6 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>My Portfolio</title>
     <link rel="stylesheet" href="style.css" />
-    <link rel="stylesheet" href="mediaqueries.css" />
   </head>
   <body>
     <nav id="desktop-nav">
@@ -36,6 +35,7 @@
         </div>
       </div>
     </nav>
+
     <section id="profile">
       <div class="section__pic-container">
         <img src="./assets/profile1.png" alt="Prashant profile picture" />
@@ -53,10 +53,7 @@
           >
             View resume
           </button>
-          <button
-            class="btn btn-color-1"
-            onclick="location.href = './#contact'"
-          >
+          <button class="btn btn-color-1" onclick="location.href='./#contact'">
             Contact Info
           </button>
         </div>
@@ -65,25 +62,23 @@
             src="./assets/linkedin.png"
             alt="My LinkedIn profile"
             class="icon"
-            onclick="
-              location.href =
-                'https://www.linkedin.com/in/prashantbiradar04042517/'
-            "
+            onclick="location.href='https://www.linkedin.com/in/prashantbiradar04042517/'"
           />
           <img
             src="./assets/github.png"
             alt="My Github profile"
             class="icon"
-            onclick="location.href = 'https://github.com/prashantbiradar04/'"
+            onclick="location.href='https://github.com/prashantbiradar04/'"
           />
         </div>
       </div>
     </section>
+
     <section id="about">
       <p class="section__text__p1">Get To Know More</p>
       <h1 class="title">About Me</h1>
       <div class="section-container">
-        <div class="section__pic-container">
+        <div class="section__pic-container about-pic-container">
           <img
             src="./assets/profile2.jpg"
             alt="Profile picture"
@@ -117,34 +112,28 @@
               working as a Programmer Analyst Trainee at Cognizant, where I'm
               building hands-on expertise in SAP BASIS and SAP Security. From
               system administration to user/role management and enterprise
-              application support, I'm learning how the backbone of large-scale
-              SAP landscapes actually works.
+              application support, I'm learning how the backbone of
+              large-scale SAP landscapes actually works.
             </p>
             <p>
-              Before this, I completed a Web Development internship focused on
-              LMS implementation, where I got comfortable with PostgreSQL,
-              pgAdmin, Apache, and XAMPP. I'm also the developer behind EventHub
-              and EasyPark, reflecting a broad interest across enterprise
-              systems and consumer software. Additionally, a skilled Tabla
-              player.
+              Before this, I completed a Web Development internship focused
+              on LMS implementation, where I got comfortable with PostgreSQL,
+              pgAdmin, Apache, and XAMPP. I'm also the developer behind
+              EventHub and EasyPark, reflecting a broad interest across
+              enterprise systems and consumer software. Additionally, a
+              skilled Tabla player.
             </p>
           </div>
         </div>
       </div>
-      <img
-        src="./assets/arrow.png"
-        alt="Arrow icon"
-        class="icon arrow"
-        onclick="location.href = './#experience'"
-      />
     </section>
+
     <section id="experience">
       <p class="section__text__p1">Explore My</p>
       <h1 class="title">Experience</h1>
+
       <div class="experience-details-container">
-        <h2 class="experience-sub-title" style="text-align: center">
-          Work Experience
-        </h2>
+        <h2 class="experience-sub-title centered-title">Work Experience</h2>
         <div class="timeline-container">
           <div class="timeline-item">
             <div class="timeline-dot"></div>
@@ -157,9 +146,9 @@
                 >
               </div>
               <p>
-                Completed training in SAP BASIS administration and SAP Security
-                concepts. Gained knowledge of SAP system architecture, user
-                administration, and role management.
+                Completed training in SAP BASIS administration and SAP
+                Security concepts. Gained knowledge of SAP system
+                architecture, user administration, and role management.
               </p>
             </div>
           </div>
@@ -175,57 +164,42 @@
               </div>
               <p>
                 Supported Learning Management System (LMS) implementation and
-                customization. Worked with PostgreSQL and pgAdmin for database
-                management.
+                customization. Worked with PostgreSQL and pgAdmin for
+                database management.
               </p>
             </div>
           </div>
         </div>
       </div>
+
       <div class="experience-details-container">
-        <div class="about-containers">
+        <div class="about-containers skills-grid">
           <div class="details-container">
             <h2 class="experience-sub-title">SAP &amp; Enterprise</h2>
             <div class="article-container">
               <article>
-                <img
-                  src="./assets/checkmark.png"
-                  alt="Experience icon"
-                  class="icon"
-                />
+                <img src="./assets/checkmark.png" alt="" class="icon" />
                 <div>
                   <h3>SAP BASIS</h3>
                   <p>Intermediate</p>
                 </div>
               </article>
               <article>
-                <img
-                  src="./assets/checkmark.png"
-                  alt="Experience icon"
-                  class="icon"
-                />
+                <img src="./assets/checkmark.png" alt="" class="icon" />
                 <div>
                   <h3>SAP Security</h3>
                   <p>Intermediate</p>
                 </div>
               </article>
               <article>
-                <img
-                  src="./assets/checkmark.png"
-                  alt="Experience icon"
-                  class="icon"
-                />
+                <img src="./assets/checkmark.png" alt="" class="icon" />
                 <div>
                   <h3>SAP HANA</h3>
                   <p>Basic</p>
                 </div>
               </article>
               <article>
-                <img
-                  src="./assets/checkmark.png"
-                  alt="Experience icon"
-                  class="icon"
-                />
+                <img src="./assets/checkmark.png" alt="" class="icon" />
                 <div>
                   <h3>SAP NetWeaver</h3>
                   <p>Basic</p>
@@ -237,66 +211,42 @@
             <h2 class="experience-sub-title">Programming &amp; Tools</h2>
             <div class="article-container">
               <article>
-                <img
-                  src="./assets/checkmark.png"
-                  alt="Experience icon"
-                  class="icon"
-                />
+                <img src="./assets/checkmark.png" alt="" class="icon" />
                 <div>
                   <h3>Java</h3>
                   <p>Intermediate</p>
                 </div>
               </article>
               <article>
-                <img
-                  src="./assets/checkmark.png"
-                  alt="Experience icon"
-                  class="icon"
-                />
+                <img src="./assets/checkmark.png" alt="" class="icon" />
                 <div>
                   <h3>Flutter</h3>
                   <p>Intermediate</p>
                 </div>
               </article>
               <article>
-                <img
-                  src="./assets/checkmark.png"
-                  alt="Experience icon"
-                  class="icon"
-                />
+                <img src="./assets/checkmark.png" alt="" class="icon" />
                 <div>
                   <h3>SQL</h3>
                   <p>Intermediate</p>
                 </div>
               </article>
               <article>
-                <img
-                  src="./assets/checkmark.png"
-                  alt="Experience icon"
-                  class="icon"
-                />
+                <img src="./assets/checkmark.png" alt="" class="icon" />
                 <div>
                   <h3>PostgreSQL</h3>
                   <p>Basic</p>
                 </div>
               </article>
               <article>
-                <img
-                  src="./assets/checkmark.png"
-                  alt="Experience icon"
-                  class="icon"
-                />
+                <img src="./assets/checkmark.png" alt="" class="icon" />
                 <div>
                   <h3>Git</h3>
                   <p>Basic</p>
                 </div>
               </article>
               <article>
-                <img
-                  src="./assets/checkmark.png"
-                  alt="Experience icon"
-                  class="icon"
-                />
+                <img src="./assets/checkmark.png" alt="" class="icon" />
                 <div>
                   <h3>Apache / XAMPP</h3>
                   <p>Basic</p>
@@ -306,18 +256,13 @@
           </div>
         </div>
       </div>
-      <img
-        src="./assets/arrow.png"
-        alt="Arrow icon"
-        class="icon arrow"
-        onclick="location.href = './#projects'"
-      />
     </section>
+
     <section id="projects">
       <p class="section__text__p1">Browse My Recent</p>
       <h1 class="title">Projects</h1>
       <div class="experience-details-container">
-        <div class="about-containers">
+        <div class="about-containers projects-grid">
           <div class="details-container color-container">
             <div class="article-container">
               <img
@@ -329,17 +274,15 @@
             <h2 class="experience-sub-title project-title">
               EasyPark &ndash; Smart Parking Management System
             </h2>
-            <p style="margin: 0 1rem 1rem">
+            <p class="project-desc">
               Full-stack smart parking system with a web Admin Portal for
-              managing parking infrastructure, plus a planned React Native app
-              for end-user reservations. Built with Swagger API and JWT.
+              managing parking infrastructure, plus a planned React Native
+              app for end-user reservations. Built with Swagger API and JWT.
             </p>
             <div class="btn-container">
               <button
                 class="btn btn-color-2 project-btn"
-                onclick="
-                  location.href = 'https://github.com/prashantbiradar04/'
-                "
+                onclick="location.href='https://github.com/prashantbiradar04/'"
               >
                 Github
               </button>
@@ -356,7 +299,7 @@
             <h2 class="experience-sub-title project-title">
               EventHub &ndash; Campus Event Management App
             </h2>
-            <p style="margin: 0 1rem 1rem">
+            <p class="project-desc">
               Integrated centralized campus event management app built with
               Flutter, Firebase, and Cloudinary &mdash; featuring QR/OTP
               attendance, live polls, and automated e-certificates. Tested
@@ -366,9 +309,7 @@
             <div class="btn-container">
               <button
                 class="btn btn-color-2 project-btn"
-                onclick="
-                  location.href = 'https://github.com/prashantbiradar04/'
-                "
+                onclick="location.href='https://github.com/prashantbiradar04/'"
               >
                 Github
               </button>
@@ -385,31 +326,24 @@
             <h2 class="experience-sub-title project-title">
               DocCare - Doctor's Appoinment App
             </h2>
-            <p style="margin: 0 1rem 1rem">
+            <p class="project-desc">
               DocCare is a full-stack doctor appointment booking application
-              that enables users to search for doctors, schedule appointments,
-              manage bookings, and receive healthcare services seamlessly. It
-              features secure user authentication, appointment management,
-              responsive design, and an intuitive interface for both patients
-              and administrators.
+              that enables users to search for doctors, schedule
+              appointments, manage bookings, and receive healthcare services
+              seamlessly. It features secure user authentication, appointment
+              management, responsive design, and an intuitive interface for
+              both patients and administrators.
             </p>
-
             <div class="btn-container">
               <button
                 class="btn btn-color-2 project-btn"
-                onclick="
-                  location.href =
-                    'https://github.com/prashantbiradar04/Doctor-Appointment-App'
-                "
+                onclick="location.href='https://github.com/prashantbiradar04/Doctor-Appointment-App'"
               >
                 Github
               </button>
               <button
                 class="btn btn-color-2 project-btn"
-                onclick="
-                  location.href =
-                    'https://github.com/prashantbiradar04/Doctor-Appointment-App'
-                "
+                onclick="location.href='https://github.com/prashantbiradar04/Doctor-Appointment-App'"
               >
                 Live Demo
               </button>
@@ -417,13 +351,8 @@
           </div>
         </div>
       </div>
-      <img
-        src="./assets/arrow.png"
-        alt="Arrow icon"
-        class="icon arrow"
-        onclick="location.href = './#contact'"
-      />
     </section>
+
     <section id="contact">
       <p class="section__text__p1">Get in Touch</p>
       <h1 class="title">Contact Me</h1>
@@ -454,6 +383,7 @@
         </div>
       </div>
     </section>
+
     <footer>
       <nav>
         <div class="nav-links-container">
@@ -467,6 +397,7 @@
       </nav>
       <p>Copyright &#169; 2026 Prashant Biradar. All Rights Reserved.</p>
     </footer>
+
     <script src="script.js"></script>
   </body>
 </html>
