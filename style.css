@@ -621,3 +621,9 @@ footer p {
     height: 160px;
   }
 }
+
+#contact {
+    min-height: 0;
+    padding-top: 1.5rem;
+    padding-bottom: 1.5rem;
+}
